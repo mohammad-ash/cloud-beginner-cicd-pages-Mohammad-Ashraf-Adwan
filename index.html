@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hossaba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>CI/CD Project</h1>
+            <p><strong>Name:</strong> Mohammad Ashraf<br>
+               <strong>Course:</strong> Introduction to CI/CD and DevOps</p>
+        </header>
+
+        <section>
+            <h2>What is CI/CD?</h2>
+            <p>
+                Continuous Integration and Continuous Delivery (CI/CD) denotes a set of disciplined engineering practices
+                that enable software teams to deliver value continuously and reliably. CI emphasizes the frequent integration
+                of code changes into a shared repository, where each change is automatically built and verified by automated tests.
+                CD extends this process by automating the deployment of validated artifacts to staging or production environments,
+                reducing manual intervention and minimizing release risk.
+            </p>
+        </section>
+
+        <section>
+            <h2>What happens after a Push? (Pipeline)</h2>
+            <p>
+                Once changes are pushed to the remote repository, the CI/CD pipeline is triggered and executes a defined sequence of stages.
+                Typical stages include checking out the source code, building the application, running automated tests, and deploying the
+                resulting artifacts to the designated environment. In GitHub Actions, these stages are defined in a workflow file that
+                orchestrates the job execution automatically.
+            </p>
+        </section>
+
+        <section>
+            <h2>Interactive Feature</h2>
+            <p id="displayName">Click the button to change this text to your name.</p>
+            <button id="changeNameBtn" type="button">Change Name</button>
+        </section>
+    </main>
+
+    <script src="jscript.js"></script>
+</body>
+</html>
