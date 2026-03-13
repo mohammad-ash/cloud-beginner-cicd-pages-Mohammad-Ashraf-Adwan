@@ -5,7 +5,8 @@ if (changeNameBtn) {
     changeNameBtn.addEventListener("click", () => {
         const display = document.getElementById("displayName");
         if (display) {
-            display.textContent = "Mohammad Ashraf";
+            display.textContent = "Mohammad Adwan";
         }
     });
 }
+
